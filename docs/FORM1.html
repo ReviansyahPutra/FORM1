@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Belajar Membuat Form </title>
+</head>
+
+<center>
+<body>
+	<h1> FORM HTML</h1>
+<form action=" formulir.html" method="get">
+ 
+Nama: <input type="text" name="namE" value="Muhammad Reviansyah Danendra Putra" />
+<br />
+ 
+
+Gender : 
+<input type="radio" name="gender" value="Female" checked /> 
+Female
+<input type="radio" name="gender" value="Male" /> 
+Male	
+<br />
+ 
+Address: <input type="text" name="address" value="" />
+<br />
+ 
+Country:
+ <select name="asal_kota" >
+     <option value="Kota Jakarta"> Jakarta</option>
+     <option value="Kota Bandung">Bandung</option>
+     <option value="Kota Semarang" selected>Semarang</option>
+ </select>
+<br />
+ 
+Email: <input type="text" name="email" value="" />
+<br />
+
+<form action="proses.php" method="post" enctype="multipart/form-data">
+      <p>Photo :<input type='file' name='foto' /></p>
+      <input type='submit' name='tombol' value='Kirim' />
+</form>
+
+Comment:
+<textarea name="komentar" rows="5" cols="20">
+</textarea>
+<br />
+ 
+</form>
+</body>
+</center>
+</html>
