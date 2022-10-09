@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="perpus.css">
+    <title>Peminjaman Buku</title>
+</head>
+<body>
+    <h1 align="center">Perpustakaan Institut Teknologi PLN</h1>
+    <table border="solid" align="center">
+        <tr class="Navbar">
+            <th >Nomor</th>
+            <th >Nama Buku</th>
+            <th >Category</th>
+            <th >Jumlah Buku</th>
+        </tr>
+        <tr>
+            <td align="center">1.</td>
+            <td align="center">Mimpi Di Mahameru</td>
+            <td align="center">Komik</td>
+            <td align="center">25</td>
+        </tr>
+        <tr>
+            <td align="center">2.</td>
+            <td align="center">Sistem Basis Data</td>
+            <td align="center">Teknologi</td>
+            <td align="center">35</td>
+        </tr>
+        <tr>
+            <td align="center">3.</td>
+            <td align="center">Another Cooking With Love</td>
+            <td align="center">Masak</td>
+            <td align="center">90</td>
+        </tr>
+        <tr>
+            <td align="center">4.</td>
+            <td align="center">Parasit Jatuh Cinta</td>
+            <td align="center">Fiksi</td>
+            <td align="center">32</td>
+        </tr>
+        <tr>
+            <td align="center">5.</td>
+            <td align="center">How To Be A Drummer</td>
+            <td align="center">Musik</td>
+            <td align="center">15</td>
+        </tr>
+    </table>
+    <br><br>
+    <form action="" method="">
+        <fieldset >
+            <p><label for="name">Nama Anda:</label> <input type="text" id="name" placeholder="Your Name" required></p>
+            <p><label for="email">Email Anda:</label> <input type="email" id="email" placeholder="Email@example.com" required></p>
+            <p><label for="phone">Nomor Handphone:</label> <input type="number" id="phone" pattern=".{11,}" title="Minimal 11 Nomor" placeholder="081234567890" required></p>
+        </fieldset>
+        <br>
+        
+        <b>Pilih Buku yang ingin dipinjam: </b> <br>
+        <input type="radio" name="pinjam">Filosofi Teras <br> 
+        <input type="radio" name="pinjam">Dasar Matematika <br>
+        <input type="radio" name="pinjam">Logika Dasar Pemrograman <br>
+        <input type="radio" name="pinjam">Antara Dia Aku Dan Mereka <br>
+        <input type="radio" name="pinjam">At-Tibyan Karya Imam An-Nawawi <br><br>
+
+        <b> Jangka Waktu Peminjaman Buku</b>
+        <P>
+        <select name="Waktu Peminjaman">
+            <option value=’1H’>1 Hari</option> 
+            <option value=’2H’> 2 Hari </option> 
+            <option value=’3H’> 3 Hari </option> 
+            </select> 
+        </P>
+        <b> NOTE: Buku tidak boleh rusak, mengembalikannya dengan tepat Waktu
+            apabila tidak mentaati peraturan akan dikenakan sanksi
+        </b>
+            <P>
+        <input type="submit">
+            </P>
+    </form>
+</body>
+</html>
